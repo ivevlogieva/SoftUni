@@ -1,0 +1,96 @@
+body {
+    background: #00923E;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+table {
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+tr td:first-child,td:nth-child(5){
+    text-align: right;
+}
+tr td:nth-child(2),td:nth-child(4){
+    text-align: center;
+}
+tr:nth-child(2n){
+    background: #C8C8C8;
+}
+tr:nth-child(2n+1){
+    background: #FFF;
+}
+tr:last-child td:first-child {
+    border-bottom-left-radius: 15px;
+}
+tr:last-child td:last-child {
+    border-bottom-right-radius: 15px;
+}
+tr th,td{
+    padding: 5px 15px;
+}
+tr:first-child th:first-child {
+    border-top-left-radius: 15px;
+}
+tr:first-child th:last-child {
+    border-top-right-radius: 15px;
+}
+tr:nth-child(1) td:last-child, tr:nth-child(2) td:last-child, tr:nth-child(3) td:last-child {
+    content:url("../img/red_bet.png");
+}
+tr:nth-child(4) td:last-child, tr:nth-child(5) td:last-child {
+    content:url("../img/green_bet.png");
+}
+tr:nth-child(1) td:first-child:after {
+    content: url("../img/brasil.jpg");
+    padding-left: 5px;
+}
+tr:nth-child(2) td:first-child:after {
+    content: url("../img/spain.jpg");
+    padding-left: 5px;
+}
+tr:nth-child(3) td:first-child:after {
+    content: url("../img/italy.jpg");
+    padding-left: 5px;
+}
+tr:nth-child(4) td:first-child:after {
+    content: url("../img/argentina.jpg");
+    padding-left: 5px;
+}
+tr:nth-child(5) td:first-child:after {
+    content: url("../img/germany.jpg");
+    padding-left: 5px;
+}
+tr:nth-child(1) td:nth-child(3):before {
+    content: url("../img/mexico.jpg");
+    padding-right: 5px;
+}
+tr:nth-child(2) td:nth-child(3):before {
+    content: url("../img/netherlands.jpg");
+    padding-right: 5px;
+}
+tr:nth-child(3) td:nth-child(3):before {
+    content: url("../img/england.jpg");
+    padding-right: 5px;
+}
+tr:nth-child(4) td:nth-child(3):before {
+    content: url("../img/bosniaAndHerz.jpg");
+    padding-right: 5px;
+}
+tr:nth-child(5) td:nth-child(3):before {
+    content: url("../img/portugal.jpg");
+    padding-right: 5px;
+}
+th {
+    border: 1px solid #000;
+    background: #F8C711;
+}
+td{
+    border: 1px solid #000;
+}
+tr:nth-child(1) td select, tr:nth-child(2) td select, tr:nth-child(3) td select {
+    color:red;
+}
+tr:nth-child(4) td select, tr:nth-child(5) td select {
+    color:green;
+}

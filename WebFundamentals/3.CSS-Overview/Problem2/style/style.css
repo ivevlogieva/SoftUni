@@ -1,0 +1,147 @@
+body{
+    background: url("../img/colorful_dots_on_black.jpg");
+    margin: 0 auto;
+    width: 800px;
+    font-family: sans-serif;
+}
+body>header {
+    font-weight: bold;
+    padding:10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: linear-gradient(to right,red,red 33.3%,green 33.3%,green 67.7%,blue 67.7%);
+    color: #FFFF00;
+    font-size: 25px;
+    font-weight: bold;
+}
+body>aside{
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    display: inline-block;
+    float:left;
+    margin-left:10px;
+}
+nav header {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+}
+a:visited {
+    color:#81808C;
+}
+nav ul {
+    -webkit-padding-start: 5px;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 2px;
+}
+nav ul li a:before{
+    padding-right: 5px;
+    content: url("../img/arrow.png");
+}
+ul li:nth-child(1):hover {
+    background: #FF0000;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+ul li:nth-child(2):hover {
+    background: #FFA500;
+    border-radius: 5px;
+}
+ul li:nth-child(3):hover {
+    background: #FFFF00;
+    border-radius: 5px;
+}
+ul li:nth-child(4):hover {
+    background: #008000;
+    border-radius: 5px;
+}
+ul li:nth-child(5):hover {
+    background: #0000FF;
+    border-radius: 5px;
+}
+ul li:nth-child(6):hover {
+    background: #800080;
+    border-radius: 5px;
+}
+section article {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0 10px 10px;
+    padding:10px;
+    width: 500px;
+    border-radius: 10px;
+    float: right;
+    display: inline-block;
+}
+#webColors {
+    background: #FF0000;
+    border-radius: 10px;
+    padding: 10px;
+    color:#FFF;
+    font-weight: bold;
+}
+
+#webSafeColors {
+    background: #FFA500;
+    border-radius: 10px;
+    padding: 10px;
+    color:#000;
+    font-weight: bold;
+}
+
+#RGB {
+    background: #FFFF00;
+    border-radius: 10px;
+    padding: 10px;
+    color:#000;
+    font-weight: bold; 
+}
+#RGBA {
+    background: #008000;
+    border-radius: 10px;
+    padding: 10px;
+    color:#FFF;
+    font-weight: bold;
+}
+#HSLHSV {
+    background: #0000FF;
+    border-radius: 10px;
+    padding: 10px;
+    color:#FFF;
+    font-weight: bold;
+}
+#lorem {
+    background: #800080;
+    border-radius: 10px;
+    padding: 10px;
+    color:#FFF;
+    font-weight: bold;
+}
+div:first-letter {
+    font-size: 45px;  
+}
+div:first-line {
+    font-style: italic;
+}
+span[lang='la'] {
+    color: #0000FF;
+    font-style: italic;
+}
+
+span[lang='la']:before {
+    content: '\" ';
+}
+
+span[lang='la']:after {
+    content: '\" ';
+}
+footer a {
+    color:grey;
+    font-style: italic;
+}
