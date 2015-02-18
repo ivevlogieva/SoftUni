@@ -1,0 +1,51 @@
+body {
+    color: #FFF;
+    font-size: 13px;
+    font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+    font-weight: bold;
+    background: #435B7A;
+}
+table {
+    background-color: #234465;
+}
+td {
+    text-align: center;
+    padding: 0 10px;
+}
+
+td.right {
+    text-align: right;
+}
+td.notification {
+    width: 430px;
+}
+td.user {
+    width: 110px;
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+li {
+    float: left;
+    padding: 0 10px;
+}
+button[type="submit"] {
+    float: right;
+    width: 20px;
+    height: 20px;
+    padding: 5px 0 0 5px;
+    vertical-align: top;
+    border: 0;
+    border-left: 1px solid #d5d5d5;
+    background: #FFF;
+    background-image: url(../magn-glass-icon17.png);
+    background-repeat: no-repeat;
+
+}
+select {
+    color: #FFF;
+    border: none;
+    font-weight: bold;
+    background:#234465;
+}

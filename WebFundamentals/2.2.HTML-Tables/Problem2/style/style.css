@@ -1,0 +1,14 @@
+table {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+th {
+    border: 1px solid black;
+}
+tfoot tr td {
+    text-align: right;
+}

@@ -1,0 +1,62 @@
+table{
+    border: 1px solid black;
+}
+table.social {
+    border:0;
+}
+td {
+    border: 1px solid black;
+}
+td.social {
+    border:0;
+}
+td.center {
+    text-align: center;
+}
+td.height_width {
+    height: 70px;
+    width: 150px;
+    text-align: center;
+}
+td.height_width_mini {
+    height: 70px;
+    width:75px;
+    text-align: center;
+}
+td.game_github_google {
+    height: 70px;
+    width:150px;
+    text-align: center;
+}
+#softuni{
+    height: 70px;
+    width: 320px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#beer {
+    width: 230px;
+    height: 70px;
+    text-align: center;
+}
+
+button{
+    color: blue;
+    font-weight: bold;
+}
+button.google_github{
+    height: 70px;
+    width: 150px;
+}
+button.fb_gmail_yt_20_food_wc_mini {
+    height: 70px;
+    width: 75px;
+}
+button.beer {
+    width: 225px;
+    height:70px;
+}
+button.social_sleep{
+    width: 75px;
+    height:35px;
+}

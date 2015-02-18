@@ -1,0 +1,62 @@
+table{
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+td.center {
+    text-align: center;
+}
+td.height_width {
+    height: 70px;
+    width: 150px;
+}
+
+#google {
+    vertical-align: top;
+}
+#github {
+    vertical-align: top;
+    text-align: right;
+}
+#fb {
+    vertical-align: top;
+    text-align: center;
+    height: 80px;
+    width: 75px;
+}
+#gmail {
+    height: 80px;
+    width: 75px;
+}
+#yt{
+    vertical-align: bottom;
+    text-align: center;
+    height: 80px;
+    width: 75px;
+}
+#t2048{
+    height: 80px;
+    width:75px;
+}
+#food {
+    vertical-align: bottom;
+    text-align: right;
+    height: 80px;
+    width:75px;
+}
+#game {
+    vertical-align: bottom;
+    text-align: left;
+}
+#beer {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    width: 225px;
+    height: 80px;
+}
+#social_life {
+    height: 80px;
+    width:75px;
+}
