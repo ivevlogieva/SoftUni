@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <main>
+            <header>fakebook</header>
+            <section>
+                <h1>
+                    Registration
+                </h1>
+                <h4>It is safe and it will always be!</h4>
+                <form>
+                    <fieldset>
+                        <legend>None-Important Information</legend>
+                        <input type='text' placeholder="First Name"/>
+                        <input type='text' placeholder="Last Name"/>
+                        <input type='email' placeholder="Your Email"/>
+                        <input type='tel' placeholder="Phone Number"/>
+                        <input type='password' placeholder="Your Passowrd"/>
+                        <input type='url' placeholder="Website"/>
+                        <label id='birthday'>Birthday</label>
+                        <input type='datetime' name='date' />
+                        <div id='sex'>
+                            <input type='radio' name='sex' value='1'/><label class='label-sex'>Female</label>
+                            <input type='radio' name='sex' value='2'/><label class='label-sex'>Male</label>
+                            <input type='radio' name='sex' value='3' checked/><label class='label-sex'>Other</label>
+                        </div>
+                    </fieldset>
+                    <fieldset id='important-fieldset'>
+                        <legend>Important Information *required</legend>
+                        <select>
+                            <option>Country</option>
+                            <option>Bulgaria</option>
+                            <option>Spain</option>
+                            <option>England</option>
+                        </select>
+                        <input type='text' placeholder="Village"/>
+                        <input type='text' placeholder="District"/>
+                        <input type='text' placeholder="Street" id='street'/>
+                        <input type='number' placeholder="Nr" class='address'/>
+                        <input type='number' placeholder="Floor" class='address'/>
+                        <input type='number' placeholder="Ap Nr" class='address'/>
+                        <label class='door-color'>Door Color</label>
+                        <input type='color' name='door-color' value='#FD81BF'/>
+                        <input type='number' placeholder="Water Meter Nr" id='water'/>
+                        <select>
+                            <option>Aunt Panties Size</option>
+                        </select>
+                        <label class='door-color'>More Personal Information</label>
+                        <textarea placeholder="More Personal Information!!!" rows='5' cols="55">
+                        </textarea>
+                    </fieldset>
+                    <input type='reset' value='Clear Form'/>
+                    <input type='submit' value='Register'/>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

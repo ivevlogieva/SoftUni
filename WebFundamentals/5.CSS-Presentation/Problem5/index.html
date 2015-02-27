@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <style>
+            * {
+                margin:0;
+                padding:0;
+                font-family: sans-serif;
+            }
+            main{
+                margin: 0 auto;
+                background: #9FBAD6;
+                width: 600px;
+                height:590px;
+            }
+            #calc {
+                float:left;
+                padding: 5px 10px;
+            }
+            #right_icons {
+                float:right;
+                padding:5px 10px;
+            }
+            nav {
+                background: #D9E0F2;
+                width: 575px;
+                height: 25px;
+                margin-left: 10px;
+                display: inline-block;
+            }
+            li.nav_menu {
+                float: left;
+                padding: 5px 10px;
+                font-size: 15px;
+                list-style-type: none;
+            }
+            section {
+                background: #E8F3F9;
+                width: 575px;
+                height: 520px;
+                margin-left: 10px;
+            }
+            input[type="text"] {
+                background: #F0F5FB;
+                height: 40px;
+                width:553px;
+                margin-top:5px;
+            }
+            input[type="radio"]{
+                display: inline-block;
+                margin: 10px 0;
+            }
+            .first_row{
+                width:50px; 
+                height: 50px;
+                border: 1px solid grey;
+                float:left; 
+                margin:5px 3px;
+                text-align: center;
+            }
+            .left_radio_buttons {
+                border: 1px solid grey; 
+                width: 75px; 
+                padding: 10px;
+                float:left;
+                margin-left:10px;
+                height:155px;
+                margin-top:5px;
+            }
+            #main {
+                margin:0 7px;
+                width: 553px;
+            }
+            td.right{
+                float:right;
+            }
+            .zero_first {
+                width:80px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <img id="calc" src="img/calc.jpg" alt="icon"/>
+            <div id="right_icons">
+                <img src="img/min.jpg" alt="min"/>
+                <img src="img/sep.jpg" alt="sep"/>
+                <img src="img/close.jpg" alt="close"/>
+            </div>
+            <nav>
+                <ul>
+                    <li class="nav_menu">View</li>
+                    <li class="nav_menu">Edit</li>
+                    <li class="nav_menu">Help</li>
+                </ul>
+            </nav>
+            <section>
+            <table id="main">
+                <tr >
+                    <th colspan="8">
+                        <input type="text" id="input_calc"/>
+                    </th>
+                </tr>
+                <tr>
+                    <td class="zero_first">0000</td>
+                    <td class="zero_first">0000</td>
+                    <td class="zero_first">0000</td>
+                    <td class="zero_first">0000</td>
+                    <td class="zero_first">0000</td>
+                    <td class="zero_first">0000</td>
+                    <td class="zero_first">0000</td>
+                    <td class="zero_first">0000</td>
+                </tr>
+                <tr>
+                    <td colspan="4">63</td>
+                    <td colspan="3">47</td>
+                    <td class="right">32</td>
+                </tr>
+                <tr>
+                    <td >0000</td>
+                    <td >0000</td>
+                    <td >0000</td>
+                    <td >0000</td>
+                    <td >0000</td>
+                    <td >0000</td>
+                    <td >0000</td>
+                    <td >0000</td>
+                </tr>
+                <tr>
+                    <td colspan="4">31</td>
+                    <td colspan="3">15</td>
+                    <td >0</td>
+                </tr>
+                
+            </table>
+                <div class="left_radio_buttons">
+                    <input type="radio" name="hex"/><label for="hex">Hex</label></br>
+                    <input type="radio" name="dec"/><label for="dec">Dec</label></br>
+                    <input type="radio" name="oct"/><label for="oct">Oct</label></br>
+                    <input type="radio" name="bin"/><label for="bin">Bin</label>
+                </div>
+                <div>
+                    <div class="first_row"></div>
+                    <div class="first_row">Mod</div>
+                    <div class="first_row">A</div>
+                    <div class="first_row">MC</div>
+                    <div class="first_row">MR</div>
+                    <div class="first_row">MS</div>
+                    <div class="first_row">M+</div>
+                    <div class="first_row">M-</div>
+                <div>
+                <div>
+                    <div class="first_row">(</div>
+                    <div class="first_row">)</div>
+                    <div class="first_row">B</div>
+                    <div class="first_row"><-</div>
+                    <div class="first_row">CE</div>
+                    <div class="first_row">C</div>
+                    <div class="first_row">+</div>
+                    <div class="first_row"></div>
+                <div>
+                <div>
+                    <div class="first_row">RoL</div>
+                    <div class="first_row">RoR</div>
+                    <div class="first_row">C</div>
+                    <div class="first_row">7</div>
+                    <div class="first_row">8</div>
+                    <div class="first_row">9</div>
+                    <div class="first_row">/</div>
+                    <div class="first_row">%</div>
+                <div>
+                <div class="left_radio_buttons">
+                    <input type="radio" name="hex"/><label for="hex">Qword</label></br>
+                    <input type="radio" name="dec"/><label for="dec">Dword</label></br>
+                    <input type="radio" name="oct"/><label for="oct">Word</label></br>
+                    <input type="radio" name="bin"/><label for="bin">Byte</label>
+                </div>
+                <div>
+                    <div class="first_row">Or</div>
+                    <div class="first_row">Xor</div>
+                    <div class="first_row">D</div>
+                    <div class="first_row">4</div>
+                    <div class="first_row">5</div>
+                    <div class="first_row">6</div>
+                    <div class="first_row">*</div>
+                    <div class="first_row">1/x</div>
+                <div>
+                <div>
+                    <div class="first_row">Lsh</div>
+                    <div class="first_row">Rsh</div>
+                    <div class="first_row">E</div>
+                    <div class="first_row">1</div>
+                    <div class="first_row">2</div>
+                    <div class="first_row">3</div>
+                    <div class="first_row">-</div>
+                    <div class="first_row">=</div>
+                <div>
+                <div>
+                    <div class="first_row">Not</div>
+                    <div class="first_row">And</div>
+                    <div class="first_row">F</div>
+                    <div class="first_row" style="width:110px;">0</div>
+                    <div class="first_row">.</div>
+                    <div class="first_row">+</div>
+                <div>
+            </section>
+        </main>
+    </body>
+</html>

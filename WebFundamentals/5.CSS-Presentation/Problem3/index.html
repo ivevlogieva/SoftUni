@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <form method="post" action="">
+            <section>
+                <h4>Step 1: Your details</h4>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="First and last name" name='name'/>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="example@domain.com" name="email"/>
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="text" placeholder="eg. +447500000000" name="phone"/>
+                </div>
+            </section>
+
+            <section>
+                
+                <h4>Step 2: Delivery address</h4>
+                <div>
+                    <label for="address">Address</label>
+                    <textarea name="address" rows="5" cols="22"></textarea>
+                </div>
+                <div>
+                    <label for="postcode">Post code</label>
+                    <input type="text" name="postcode"/>
+                </div>
+                <div>
+                    <label for="country">Country</label>
+                    <input type="text" name="country"/>
+                </div>
+            </section>
+            
+            <section>
+                <h4>Step 3: Card details</h4>
+                <div id="cards">
+                    <label for="cardtype">Card type</label>
+                    </br>
+                    <input type="radio" id="visa" value="visa" name="card"/> <img src='img/visa.jpg' alt='visa'/>  <label class='card_type'>VISA</label>
+                    <input type="radio" id="amex" value="amex" name="card"/> <img src='img/amex.jpg' alt='amex'/> <label class='card_type'>AmEx</label>
+                    <input type="radio" id="mastercard" value="mastercard" name="card"/> <img src='img/mastercard.jpg' alt='mastercard'/> <label class='card_type'>Mastercard</label>
+                </div>
+                <div>
+                    <label>Card number</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label>Security code</label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label>Name on card</label>
+                    <input type="text" placeholder="exact name as on the card"/>
+                </div>
+            </section>
+            
+            <input type="submit" name="submit" value="BUY IT"/>
+        </form>
+    </body>
+</html>

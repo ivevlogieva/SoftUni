@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Flight order</h1>
+            </header>
+            <section>
+                <form method="get" action="">
+                    <div class="form">
+                        <label>From</label>
+                        <select>
+                            <option>
+                                enter a city
+                            </option>
+                            <option value="1">
+                                Sofia
+                            </option>
+                            <option value="2">
+                                Varna
+                            </option>
+                            <option value="3">
+                                Plovdiv
+                            </option>
+                        </select>
+                        
+                        <div class="date">
+                            <label>Departure Date</label>
+                            <input type="date" name="departure_date"/>
+                        </div>
+                        
+                        <div class="date">
+                            <label>Return Date</label>
+                            <input type="date" name="return_date"/>
+                        </div>
+                        
+                        <div class="children">
+                            <label>12+</label>
+                            <input type="number" min="0" max="5"/>
+                        </div>
+                        
+                        <div class="children ">
+                            <label>0-12</label>
+                            <input type="number" min="0" max="12"/>
+                        </div>
+                        
+                        <div>
+                            <label>0-2</label>
+                            <input type="number" min="0" max="2"/>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <label>To</label> 
+                        <select>
+                            <option>
+                                enter a city
+                            </option>
+                            <option value="1">
+                                Sofia
+                            </option>
+                            <option value="2">
+                                Varna
+                            </option>
+                            <option value="3">
+                                Plovdiv
+                            </option>
+                        </select></br>
+                        <input type="checkbox" name="prefer"/>
+                        <label id="prefer">Prefer directs</label>
+                        
+                        <div>
+                            <label >Time interval</label>
+                            <input type="time" name="interval_start"/>
+                            <input type="time" name="interval_end"/>
+                        </div>
+                        
+                        <div class="time">
+                            <label >Time interval</label>
+                            <input type="time" name="interval_start"/>
+                            <input type="time" name="interval_end"/>
+                        </div>
+                        
+                        <div class="time">
+                            <label>Choose class</label>
+                            <select>
+                                <option>
+                                    Economy
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="submit" name="submit" value="Search"/>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

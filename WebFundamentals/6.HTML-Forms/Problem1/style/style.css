@@ -1,0 +1,89 @@
+* {
+    margin:0;
+    padding:0;
+}
+main {
+    background: #EEEEEE;
+    width:720px;
+    height:380px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding:10px;
+}
+h1 {
+    color: #214264;
+    margin: 10px;
+}
+p{
+    color: #A4A4A4;
+    font-size: 14px;
+    margin-left: 10px;
+}
+section {
+    margin-left: 10px;
+    margin-top:20px;
+    float: left;
+    height: 250px;
+}
+header {
+    font-size:20px;
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+}
+#register_header {
+    color: #606060;
+}
+#login_header {
+    color: #FFF;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding:0 5px;
+    border: 1px solid #CDCDCD;
+}
+input[type="submit"]{
+    width:150px;
+    padding:5px 20px;
+    float:right;
+    margin-right: 14px;
+}
+    #submit_reg{
+        background: #EEEEEE;
+        border: 2px solid #546D86;
+        color: #546D86;
+        margin-top:20px;
+
+    }
+    #submit_log{
+        background: #234465;
+        border: 2px solid #C4A668;
+        color: #FFF;
+        margin-top:10px;
+        float:right;
+    }
+form {
+    width:325px;
+    padding-left:10px;
+}
+#login_section{
+    background: #234465;
+}
+label{
+    font-size:13px;
+    color:#FFF;
+}
+#check {
+    margin-top:10px;
+    float:left;
+}
+#forgot_a {
+    color:#FFF;
+    font-size:11px;
+    margin-top:15px;
+    clear: both;
+    float:right;
+    margin-right:14px;
+}

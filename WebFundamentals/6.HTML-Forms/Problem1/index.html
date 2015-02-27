@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Problem1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Enter the system</h1>
+            <p>It is necessary to login in Your account in order to sign in for a course.</p>
+            <section> 
+                <header id="register_header">Are you new? <a href="" >REGISTER</a></header>
+                <form method="post" action="">
+                    <input type="text" placeholder="User name" name="username" required tabindex="1"/>
+                    <input type="email" placeholder="Email" name="email" required tabindex="2"/>
+                    <input type="password" placeholder="Password" name="password" required tabindex="3"/>
+                    <input type="password" placeholder="Confirm password" name="confirm" required tabindex="4"/>
+                    <input type="submit" value="Register" name="submit" id="submit_reg" tabindex="5"/>
+                </form>
+            </section>
+            <section id="login_section">
+                <header id="login_header">Already a student? LOGIN </header>
+                <form method="post" action="">
+                    <input type="text" placeholder="User name" name="username" required tabindex="1"/>
+                    <input type="password" placeholder="Password" name="password" required tabindex="2"/>
+                    <div id="check">
+                        <input type="checkbox" name="remember" tabindex="3"/>
+                        <label>Remember me</label>
+                    </div>
+                    <input type="submit" value="Login" name="submit" id="submit_log" tabindex="4"/>
+                    <a href="" id="forgot_a">Forgot password</a>
+                </form>
+            </section>
+            
+        </main>
+    </body>
+</html>

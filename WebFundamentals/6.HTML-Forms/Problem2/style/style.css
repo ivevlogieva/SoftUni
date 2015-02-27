@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+main{
+    width:450px;
+    height:340px;
+    margin: 0 auto;
+    background: #FFC0CB;
+    padding-top:10px;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    width:440px;
+    height: 250px;
+}
+select {
+    width: 200px;
+    margin:5px 0;
+    padding:2px;
+}
+label {
+    font-style: italic;
+    font-size:12px;
+    display: block;
+}
+.form {
+    width: 200px;
+    height: 250px;
+    margin-left: 10px;
+    float: left;
+}
+.children {
+    float:left;
+    margin-right: 5px;
+}
+.age {
+    margin-right:0px;
+}
+.date {
+    margin:15px 0;
+    display:block
+}
+.time {
+    margin-top:17px;
+}
+#prefer {
+    display: inline;
+}
+input[type="date"] {
+    width: 197px;
+    margin: 2px 0;
+}
+input[type="number"] {
+    width: 59px;
+    height:20px;
+}
+input[type="time"]{
+    width:93px;
+}
+input[type="submit"] {
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    margin: 0px 15px;
+    float: right;
+}
+

@@ -1,0 +1,18 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+main{
+    width: 400px;
+    height:230px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding:10px;
+}
+#wp-logo {
+    width: 400px;
+}
+input[type="search"] {
+    height:30px;
+}
